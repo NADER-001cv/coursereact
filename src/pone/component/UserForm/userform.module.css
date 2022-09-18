@@ -1,0 +1,30 @@
+.userform div{
+    width: 100%;
+margin: auto;
+}
+
+.controller{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 22px;
+}
+.controller input[type="text"]{
+    width: 100%     !important;
+    /* border: none; */
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 5px;
+}
+.controller input[type="submit"]{
+    background-color: green;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    margin-top:8px;
+}

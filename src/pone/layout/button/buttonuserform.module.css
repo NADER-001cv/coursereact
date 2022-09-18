@@ -1,0 +1,16 @@
+.btnclose{
+    position: relative;
+  
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnclose button {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+}
